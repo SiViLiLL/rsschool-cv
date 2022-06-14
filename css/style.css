@@ -5,6 +5,14 @@ a {
   color: black;
 }
 
+h1{
+	font-family: Brothers, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	font-size: 70px;
+	color: #231f20;
+}
+
 @font-face {
 	font-family: "Brothers"; 
 	src: url("../fonts/BrothersRegular.otf"); 
@@ -128,11 +136,6 @@ header{
 }
 
 .title{
-	font-family: Brothers, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 8px;
-	font-size: 70px;
-	color: #231f20;
 	width: 100px;
 }
 
@@ -243,7 +246,7 @@ li{
 }
 progress{
 	height: 25px;
-	width: 500px;
+	width: 400px;
 	background-color: #e5e5f7;
 	display: block;
 	margin: 0 100px 6px 10px;
@@ -273,7 +276,7 @@ progress::-webkit-progress-value{
 	margin: 20px 0;
 	padding: 20px 20px;
 	font-size: 20px;
-	Line-height:8px;
+	Line-height:24px;
 }
 
 footer{
