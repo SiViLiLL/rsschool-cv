@@ -1,0 +1,109 @@
+@font-face {
+	font-family: "Brothers"; 
+	src: url("../fonts/BrothersRegular.otf"); 
+	font-style: normal; 
+	font-weight: regular; 
+	} 
+
+body{
+	background-color: #231f20;
+}
+.wraper{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1500px;
+	height: 100px;
+	background-color: #fff;
+}
+
+.container{
+	display: flex;
+}
+
+aside{
+	background-color: #d1d3d4;
+	width: 400px;
+	height: 100%;
+}
+section{
+	width: 1100px;
+	height: 100%;
+}
+
+.my-photo_border{
+	margin: 100px auto;
+	border-radius: 50%;
+	outline: solid #292827 3px;
+	outline-offset: 8px;
+	width: 300px;
+	height: 300px;
+	background: url(../img/ava.png) 0 0/auto 100% no-repeat;
+}
+
+.info{
+	margin: 0px 45px 39px 45px;
+	font-family: Brothers, sans-serif;
+	font-size: 20px;
+	color: #231f20;
+}
+
+.info__header{
+	display: flex;
+	align-items: flex-end;
+	border-bottom: #231f20 solid 3px;
+	padding-bottom: 15px;
+	margin: 0 0 30px;
+}
+.info__title{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: 5px;
+}
+
+.info__spot{
+	height: 28px;
+	flex-grow: 1;
+	background-color: #e5e5f7;
+   opacity: 0.8;
+   background-size: 6px 6px;
+   background-image: repeating-linear-gradient(45deg, #231f20 0, #231f20 0.9px, #d1d3d4 0, #d1d3d4 50%);
+	margin: 0 0 6px 10px;
+}
+
+.info__item{
+	display: flex;
+	align-items: center;
+	margin: 0 0 10px;
+}
+
+.item__icon{
+	width: 35px;
+	height: 35px;
+	margin: 0 20px 0 0;
+}
+
+.item__icon_mail{
+	background: url(../img/icon/Email.svg) 0 0/auto 100% no-repeat;
+}
+.item__icon_location{
+	background: url(../img/icon/Place.svg) 0 0/auto 100% no-repeat;
+}
+.info__item_per{
+	width: auto;
+	display: flex;
+	align-items: flex-start;
+}
+.item__name{
+	flex-basis: 45%;
+}
+.item__ansv{
+	font-family: 'Times New Roman', Times, serif;
+	display: flex;
+	flex-shrink: 1;
+}
+.ansv__colon{
+	margin: 0 15px 0 0;
+}
+
+
